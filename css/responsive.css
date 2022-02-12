@@ -129,6 +129,9 @@
     .pricing-item{
         margin-bottom: 50px;
     }
+    .contact-map{
+        display: none;
+    }
     .contact-content{
         grid-template-columns: none
     }
