@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;                                      
     font-size: 1rem;
     line-height: 1.6;
     background-color: #fff;
@@ -227,14 +227,12 @@ img {
     margin: auto;
 }
 .header-content h1{
-    /* width: 672px; */
     font-size: 74px;
     line-height: 84px;
     letter-spacing: 0.2px;
     font-weight: 700;
 }
 .header-content p{
-    /* width: 766px; */
     font-size: 28px;
     line-height: 40px;
     text-align: center;
@@ -267,6 +265,7 @@ img {
     line-height: 28px;
     letter-spacing: 0.1px;
     color: #252b42;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 .feature-desc{
@@ -666,7 +665,7 @@ input[type='text']{
     margin-bottom: 60px;
 }
 .contact-item{
-    max-width: 200px;
+    min-width: 200px;
 }
 .contact-map{}
 .contact-img{
@@ -706,7 +705,7 @@ input[type='text']{
     justify-content: space-between;
 }
 .footer-menu{
-    width: 582px;
+    max-width: 582px;
 }
 .footer-menu-list{
     display: grid;
@@ -731,7 +730,7 @@ input[type='text']{
     margin: 16px 0;
 }
 .footer-info{
-    max-width: 284px;
+    width: 284px;
 }
 .footer-img{
     width: 30px;

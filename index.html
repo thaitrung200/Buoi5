@@ -8,12 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <div class="wrapper">
         <div class="header">
             <nav class="navbar">
-                <ul>
+                <ul class="">
                     <li><a href="">Home</a></li>
                     <li><a href="">Product</a></li>
                     <li><a href="">Pricing</a></li>
@@ -29,6 +30,13 @@
                     <a href=""><i class="fab fa-linkedin"></i></a>
                 </div>
             </nav>
+            <!-- Mobile menu -->
+            <div class="mobile-menu hide-pc hide-tablet">
+                <img src="./image/Rectangle 4.png" alt="" class="menu-logo">
+                <div class="mobile-menu-link">
+                    <img src="./image/mobile-menu.svg" alt="">
+                </div>
+            </div>
             <div class="header-content">
                 <div class="text-content">
                     <h1 class="my-1">The best Products start with Figma</h1>
@@ -44,9 +52,20 @@
                 <div class="feature-container">
                     <div class="boxed">
                         <h2>Features</h2>
-                        <h4>Most calendars are designed for teams. 
+                        <h4 class="hide-mobile">Most calendars are designed for teams. 
                             Slate is designed for freelancers</h4>
+                            <!-- Mobile -->
+                        <h4 class="hide-pc hide-tablet">Most calendars are 
+                            designed for teams. </h4>
                     </div>
+                    
+                    <div class="feature-mobile-video hide-pc hide-tablet">
+                        <img src="./image/feature-img.png" alt="" class="feature-mobile-img">
+                        <a href="">
+                            <img src="./image/feature-play.svg" alt="" class="feature-mobile-play">
+                        </a>
+                    </div>
+
                     <div class="feature-list">
                         <div class="feature-item">
                             <img src="./image/mdi_drawing.png" alt="" class="feature-img">
@@ -75,7 +94,7 @@
                                 financial goal.</p>
                         </div>
                     </div>
-                    <div class="feature-content">
+                    <div class="feature-content hide-mobile">
                         <img src="./image/screen.png" alt="" class="content-screen">
                         <a href="" class="play-button">
                             <i class="fas fa-play"></i>
@@ -103,7 +122,7 @@
         <div class="lightning">
             <div class="container">
                 <div class="lightning-container">
-                    <div class="lightning-image">
+                    <div class="lightning-image hide-mobile">
                         <img src="./image/undraw_newsletter_vovu.png" alt="">
                     </div>
                     <div class="lightning-content">
@@ -189,7 +208,7 @@
                         </div>
                     </div>
                     <div class="testimonials-btn">
-                        <a href="" class="btn">More Testimonials</a>
+                        <a href="" class="btn btn-mobile">More Testimonials</a>
                     </div>
                 </div>
             </div>
@@ -300,7 +319,7 @@
                         <div class="contact-right">
                             <div class="contact-list">
                                 <div class="contact-item">
-                                    <img src="./image/map.svg" alt="" class="contact-img">
+                                    <img src="./image/map.svg" alt="" class="contact-img ">
                                     <h6 class="contact-text">6386 Spring St undefined Anchorage, 
                                         Georgia 12473 United States</h6>
                                 </div>
@@ -313,7 +332,7 @@
                                     <h6 class="contact-text">willie.jennings@example.com</h6>
                                 </div>
                             </div>
-                            <div class="contact-map-adress">
+                            <div class="contact-map-adress hide-mobile>
                                 <img src="./image/@ map screen.png" alt="">
                             </div>
                             <div class="contact-social">

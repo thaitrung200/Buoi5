@@ -1,0 +1,198 @@
+/* Pc */
+@media (min-width:1024px){
+    .hide-pc{
+        display: none;
+    }
+}
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .hide-tablet{
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width:739px){
+    .hide-mobile{
+        display: none;
+    }
+    .boxed{
+        width: 285px;
+    }
+    .header{
+        margin-bottom: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+    .mobile-menu{
+        padding: 17px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+    .menu-logo{
+        width: 186px;
+    }
+    .mobile-menu-link{
+        width: 26.27px;
+    }
+    .header-content{
+        
+    }
+    .text-content{
+        width: 353px;
+        margin-bottom: 59px;
+    }
+    .text-content h1{
+        font-size: 48px;
+        line-height: 55px;
+        letter-spacing: 0.2px;
+        font-weight: 400;
+        margin-bottom: 27px;
+    }
+    .text-content p{
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+    }
+    .feature-mobile-video{
+        /* width: 385px; */
+        margin-top: 60px;
+        position: relative;
+    }
+    .feature-mobile-video a{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .feature-mobile-play{
+        width: 61px;
+    }
+    .feature-list{
+        grid-template-columns: none;
+        gap: 82px 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .organize{
+        padding: 30px 20px;
+    }
+    .oranize-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .oranize-content{
+        width: 355px;
+    }
+    .oranize-image{
+        width: 292px;
+        margin-top: 90px;
+    }
+    .lightning-container{
+        text-align: center;
+    }
+    .newsletter .form input,button{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .partner{
+        padding: 0 20px;
+    }
+    .partner-list{
+        justify-content: center;
+        align-items: center;
+    }
+    .partner-item{
+        margin-bottom: 30px;
+    }
+    .testimonials{
+        padding: 28px 28px;
+    }
+    .testimonials-container > .box{
+        width: 296px;
+    }
+    .testimonials-container .box h4{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .btn.btn-mobile{
+        padding: 16px 47px;
+        line-height: 28px;
+    }
+    .pricing-list{
+        flex-direction: column;
+    }
+    .pricing-item{
+        margin-bottom: 50px;
+    }
+    .contact-content{
+        grid-template-columns: none
+    }
+    .contact-right{
+        display: grid;
+        grid-row-start: 1;
+        margin: 0;
+    }
+    .contact-social{
+        grid-row-start: 1;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .social-icon > i {
+        font-size: 32px;
+    }
+    .contact-list{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 35px;
+    }
+    .contact-item{
+        width: 349px;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .contact-img{
+        margin-right: 20px;
+    }
+    .contact-text{
+        text-align: left;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.1px;
+    }
+    .contact-left{
+        margin-top: 68px;
+    }
+    .footer{
+        padding: 107px 0;
+    }
+    .footer-container{
+        width: 284px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .footer-menu-list{
+        grid-template-columns: none;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-item{
+        margin-bottom: 73px;
+    }
+    .footer-info{
+        
+    }
+    .footer-social{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-social .social-icon{
+        margin: 0;
+    }
+}
